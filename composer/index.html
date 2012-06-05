@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>E-letter Composer</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<script type="text/javascript" src="scripts/wysiwyg.js"></script>
+		<script type="text/javascript" src="scripts/wysiwyg-settings.js"></script>
+		<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jscolor/jscolor.js"></script>
+		<link rel="stylesheet" href="styles.css?rev=1">
+		<script type="text/javascript" src="scripts.js?rev=1"></script>
+	</head>
+	<body style="background-color:#77bbff;text-align:center;margin:100px auto">
+		<h1 style="color:#004488">E-letter Composer</h1>
+    <div id="s1">
+			<p><table id="main" style="background:#ffffff;margin:0px auto;cellpadding:0;width:800px;border:5px;border-style:solid;border-color:#2266aa">
+				<tr>
+					<td style="width:132px"></td>
+					<td style="width:132px"></td>
+					<td style="width:132px"></td>
+					<td style="width:132px"></td>
+          <td style="width:132px"></td>
+          <td style="width:132px"></td>
+				</tr>
+				<tr style="text-align:center">
+					<td href="#dialog" name="modal" class="dashed" id="cell1" colspan="6">
+						Cell1
+					</td>
+				</tr>
+			</table>
+		</div>
+ <!-- #dialog is the id of a DIV defined in the code below -->  
+ <br><button onclick="jQuery('#tablecolor').hide();jQuery('#savefilename').hide();jQuery('#newrow').toggle();jQuery('#editfilename').hide();" class="XXaddrow" style="height:35px;width:80px">Add Row</button>
+ <button onclick="jQuery('#tablecolor').toggle();jQuery('#savefilename').hide();jQuery('#newrow').hide();jQuery('#editfilename').hide();" style="height:35px;width:80px">Color</button>
+<button onclick="jQuery('#tablecolor').hide();jQuery('#newrow').hide();jQuery('#savefilename').toggle();jQuery('#editfilename').hide();" style="height:35px;width:80px">Save</button>
+ <button onclick="jQuery('#tablecolor').hide();jQuery('#savefilename').hide();jQuery('#newrow').hide();jQuery('#editfilename').toggle();jQuery('#files').load('filelist.php')" style="height:35px;width:80px">Edit</button>
+
+
+ <div id="newrow" style="display:none;margin:10px auto;background:#77bbff;width:150px;border:2px solid #004488">
+	 <div style="margin:2px">
+		  <img class="add5050" src="images/5050.PNG">
+	 </div>
+	 <div style="margin:2px">
+		<img class="add2575" src="images/2575.PNG">
+	 </div>
+	 <div style="margin:2px">
+		<img class="add7525" src="images/7525.PNG">
+	</div>
+	 <div style="margin:2px">
+		<img class="add1000" src="images/1000.PNG">
+	</div>
+	 <div style="margin:2px">
+    <img class="add3333" src="images/3333.png"> 
+  </div>
+ </div>
+
+ <div id="tablecolor" style="display:none;margin:10px auto;background:#77bbff;width:200px;border:1px solid #004488;word-wrap:break-word;">
+	 <table style="text-align:left"	>
+		 <tr>
+			 <td>
+				 Text:
+			 </td>
+			 <td>
+         <input class="color" id="selecttextcolor" value="000000">
+			 </td>
+		 </tr>
+		 <tr>
+			 <td>
+				 Background: 
+			 </td>
+			 <td>
+				 <input class="color" id="selectbackgroundcolor">
+			 </td>
+		 </tr>
+	 </table>
+   <button id="colorchange">OK</button>&nbsp;<button onclick="jQuery('#tablecolor').hide();">Cancel</button>
+ </div>
+
+ <!-- This hidden div contains the form field for the filename to save as /-->
+ <div id="savefilename" style="display:none;margin:10px auto;background:#77bbff;width:150px;border:2px solid #004488">
+	 <br><input type="text" id="filename" value="newsletter1.html">
+	 <button class="write">Save</button>
+</div>
+
+<!-- This hidden div contains the form field for the filename to open /-->
+<div id="editfilename" style="display:none;margin:10px auto;background:#77bbff;width:300px;overflow:auto;border:2px solid #004488">
+  <div id="files" style="overflow:auto"></div>
+  <br><input type="text" id="efilename" value="newsletter1.html">
+  <button class="read">Edit</button>
+</div>
+
+
+<!-- This section holds the divs for the editting box /-->
+
+ <div id="boxes">  
+   
+	 <div id="dialog" class="window">
+		 <form action="">
+			 <textarea id="text2" style="width:600px;height:300px" rows="" cols=""></textarea> 
+		 </form>
+		 <br><button class="save">OK</button>
+	 <button class="close">Cancel</button>
+     <!-- #customize your modal window here -->  
+
+     </div>  
+       
+     <!-- Do not remove div#mask, because you'll need it to fill the whole screen -->    
+     <div id="mask"></div>  
+ </div>
+
+ <div>
+	 <form id="saveform" method="post" action="save.php">
+		 <input type="hidden" id="file" name="file" value="temp1.html">
+		 <input type="hidden" id="pagedata" name="data">
+	
+	</form>
+
+  <form id="editform" method="post" action="test.php">
+    <input type="hidden" id="efile" name="efile" value="temp1.html">
+   </form>
+		
+	</body>
+</html>
+

@@ -1,0 +1,21 @@
+[24-Jun-2010 13:08:40] PHP Warning:  Wrong parameter count for stripslashes() in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 5
+[07-Jul-2010 10:42:46] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 11
+[07-Jul-2010 10:43:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 11
+[07-Jul-2010 10:44:48] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 11
+[07-Jul-2010 10:45:01] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 11
+[07-Jul-2010 10:46:11] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 11
+[07-Jul-2010 11:43:50] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 11
+[07-Jul-2010 11:44:13] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 11
+[07-Jul-2010 11:46:18] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 11
+[07-Jul-2010 11:46:48] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 12
+[07-Jul-2010 11:47:15] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 12
+[07-Jul-2010 11:49:12] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 12
+[07-Jul-2010 11:57:01] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 11
+[07-Jul-2010 11:57:08] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 11
+[07-Jul-2010 11:58:14] PHP Parse error:  syntax error, unexpected T_STRING in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 11
+[09-Jul-2010 10:34:01] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 12
+[09-Jul-2010 10:34:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php:12) in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 13
+[09-Jul-2010 10:34:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php:12) in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 14
+[09-Jul-2010 10:42:13] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 12
+[09-Jul-2010 10:42:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php:12) in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 13
+[09-Jul-2010 10:42:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php:12) in /home/amisolut/public_html/portal/testing/openwysiwyg_v1.4.7/save.php on line 14

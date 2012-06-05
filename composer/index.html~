@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>E-letter Composer</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+		<script type="text/javascript" src="scripts/wysiwyg.js"></script>
+		<script type="text/javascript" src="scripts/wysiwyg-settings.js"></script>
+		<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+		<link rel="stylesheet" href="styles.css">
+		<script type="text/javascript" src="scripts.js"></script>
+	</head>
+	<body style="background-color:#bbbbbb;text-align:center;margin:100px auto">
+		<h1>E-letter Composer</h1>
+		<div id="s1">
+			<p><table id="main" style="background:#ffffff;margin:0px auto;cellpadding:0;width:800px;border:5px;border-style:solid;border-color:#000000">
+				<tr>
+					<td style="width:200px"></td>
+					<td style="width:200px"></td>
+					<td style="width:200px"></td>
+					<td style="width:200px"></td>
+				</tr>
+				<tr style="text-align:center">
+					<td href="#dialog" name="modal" id="cell1">
+						Cell1
+					</td>
+					<td href="#dialog" name="modal" id="cell2" colspan="3">
+						Cell2
+					</td>
+				</tr>
+			</table>
+		</div>
+ <!-- #dialog is the id of a DIV defined in the code below -->  
+ <br><img onclick="jQuery('#tablecolor').hide();jQuery('#savefilename').hide();jQuery('#newrow').toggle();" class="XXaddrow" src="images/newrow.JPG">
+ <img onclick="jQuery('#tablecolor').toggle();jQuery('#savefilename').hide();jQuery('#newrow').hide();" src="images/colors.JPG">
+ <img onclick="jQuery('#tablecolor').hide();jQuery('#newrow').hide();jQuery('#savefilename').toggle();" src="images/save.JPG">
+
+
+ <div id="newrow" style="display:none;margin:0 auto;background:#888888;width:150px;border:1px solid black">
+	 <div >
+		 <span style="vertical-align:middle">50/50</span> <img class="add5050" src="images/5050.PNG">
+	 </div>
+	 <div>
+		 25/75 <img class="add2575" src="images/2575.PNG">
+	 </div>
+	 <div>
+		75/25 <img class="add7525" src="images/7525.PNG">
+	</div>
+	<div>
+		100/0 <img class="add1000" src="images/1000.PNG">
+	</div>
+ </div>
+ <div id="tablecolor" style="display:none;margin:0 auto;background:#888888;width:150px;border:1px solid black;word-wrap:break-word;">
+	 <table style="text-align:left"	>
+		 <tr>
+			 <td>
+				 Text:
+			 </td>
+			 <td>
+				 <select id="selecttextcolor" style="width:60px">
+					 <option id="maintextcolor" style="background:black" selected="selected" value="black">Black</option>
+					 <option id="maintextcolor" style="background:blue" value="blue">Blue</option>
+					 <option id="maintextcolor" style="background:green" value="green">Green</option>
+					 <option id="maintextcolor" style="background:orange" value="orange">Orange</option>
+					 <option id="maintextcolor" style="background:red" value="red">Red</option>
+				 </select>
+			 </td>
+		 </tr>
+		 <tr>
+			 <td>
+				 Background: 
+			 </td>
+			 <td>
+				 <select id="selectbackgroundcolor" style="width:60px">
+					 <option id="mainbackgroundcolor" style="background:white" value="white" selected="selected">White</option>
+					 <option id="mainbackgroundcolor" style="background:#eeffff" value="#eeffff">Blue</option>
+					 <option id="mainbackgroundcolor" style="background:#eeffcc" value="#eeffcc">Green</option>
+					 <option id="mainbackgroundcolor" style="background:#ffeecc" value="#ffeecc">Orange</option>
+					 <option id="mainbackgroundcolor" style="background:#ffeeee" value="#ffeeee">Red</option>
+				 </select>
+			 </td>
+		 </tr>
+	 </table>
+ </div>
+ <div id="savefilename" style="display:none;margin:0 auto;background:#888888;width:150px;border:1px solid black">
+	 <br><input type="text" id="filename" value="newsletter1.html">
+	 <button class="write">Save</button>
+</div>
+
+ <div id="boxes">  
+   
+	 <div id="dialog" class="window">
+		 <form action="">
+			 <textarea id="text2" style="width:600px;height:300px" rows="" cols="">Test</textarea> 
+		 </form>
+		 <br><button class="save">Save and Exit</button>
+	 <br><a href="#" class="close">Close it</a>
+     <!-- #customize your modal window here -->  
+
+     </div>  
+       
+     <!-- Do not remove div#mask, because you'll need it to fill the whole screen -->    
+     <div id="mask"></div>  
+ </div>
+
+ <div>
+	 <form id="saveform" method="post" action="save.php">
+		 <input type="hidden" id="file" name="file" value="temp1.html">
+		 <input type="hidden" id="pagedata" name="data">
+	
+	</form>
+		
+	</body>
+</html>
+

@@ -1,0 +1,138 @@
+jQuery.noConflict();
+jQuery.fn.center = function () {
+	this.css("position","absolute");
+	this.css("top", ( jQuery(window).height() - this.height() ) / 2+jQuery(window).scrollTop() + "px");
+	this.css("left", ( jQuery(window).width() - this.width() ) / 2+jQuery(window).scrollLeft() + "px");
+	return this;
+};
+
+jQuery(document).ready(function() {
+		//select all the a tag with name equal to modal
+		WYSIWYG.attach('text2',custom);
+		var clicked = "";
+		//jQuery('td[name=modal]').css({'border':'1px solid black'});
+		jQuery('td[name=modal],a[name=modal]').live('click',function(e) {
+			//Cancel the link behavior
+			e.preventDefault();
+			clicked ='#'+jQuery(this).attr('id');
+			WYSIWYG.getEditorWindow('text2').document.body.innerHTML = jQuery(clicked).html();
+			WYSIWYG.setName(clicked);
+			//Get the A tag
+			var id = jQuery(this).attr('href');
+			//Get the screen height and width
+			var maskHeight = jQuery(document).height();
+			var maskWidth = jQuery(window).width();
+			//Set height and width to mask to fill up the whole screen
+			jQuery('#mask').css({'width':maskWidth,'height':maskHeight});
+			//transition effect
+			jQuery('#mask').fadeIn(100);
+			jQuery('#mask').fadeTo("fast",0.8);
+			//Get the window height and width
+			var winH = jQuery(window).height();
+			var winW = jQuery(window).width();
+			//Set the popup window to center
+			jQuery(id).css('top',  (winH/2-jQuery(id).height()/2) + (jQuery(window).scrollTop()));
+			jQuery(id).css('left', (winW/2-jQuery(id).width()/2) + (jQuery(window).scrollLeft()));
+			//transition effect
+			jQuery(id).fadeIn(200);
+		});
+
+		jQuery('#selecttextcolor').change(function(e){
+				e.preventDefault();
+				jQuery('#main').css({'color':jQuery(this).val()});
+				});
+		jQuery('#selectbackgroundcolor').change(function(e){
+				e.preventDefault();
+				jQuery('#main').css({'background-color':jQuery(this).val()});
+				});
+
+
+		//if close button is clicked
+		jQuery('.window .close').click(function (e) {
+				//Cancel the link behavior
+				e.preventDefault();
+				jQuery('#mask, .window').hide();
+				});
+
+		//if save button is clicked
+		jQuery('.save').click(function(e){
+				e.preventDefault();
+				jQuery(clicked).html(WYSIWYG.getEditorWindow('text2').document.body.innerHTML);
+				WYSIWYG.updateTextArea('text2');
+				jQuery('#mask, .window').hide();
+				});
+
+		//if mask is clicked
+		jQuery('#mask').click(function () {
+				jQuery(this).hide();
+				jQuery('.window').hide();
+				});
+
+		jQuery('.add2575').click(function(e){
+				e.preventDefault();
+				jQuery('.unsub').remove();
+				var celln = jQuery('.dashed:last').attr('id');
+				var parts = celln.match(/(\D+)(\d+)$/);
+				var lastcell = parts[2];
+				var newrow  = jQuery('<tr></tr>');
+				newrow.html('<td href="#dialog" name="modal" id="cell'+(+lastcell+1)+'" class="dashed" colspan="1">Cell'+(+lastcell+1)+'</td>\n<td href="#dialog" name="modal" id="cell'+(+lastcell+2)+'" colspan="3" class="dashed">Cell'+(+lastcell+2)+'</td>');
+
+				newrow.find('td[name=modal]').each(function(index){jQuery(this).text(jQuery(this).attr('id').substring(0,1).toUpperCase()+jQuery(this).attr('id').substring(1))});
+				jQuery('#main').append(newrow);
+				});
+
+		jQuery('.add5050').click(function(e){
+				e.preventDefault();
+				jQuery('.unsub').remove();
+				var celln = jQuery('.dashed:last').attr('id');
+				var parts = celln.match(/(\D+)(\d+)$/);
+				var lastcell = parts[2];
+
+				var newrow  = jQuery('<tr></tr>');
+				newrow.html('<td href="#dialog" name="modal" id="cell'+(+lastcell+1)+'" class="dashed" colspan="2">Cell'+(+lastcell+1)+'</td>\n<td href="#dialog" name="modal" id="cell'+(+lastcell+2)+'" colspan="2" class="dashed">Cell'+(+lastcell+2)+'</td>');
+
+				newrow.find('td[name=modal]').each(function(index){jQuery(this).text(jQuery(this).attr('id').substring(0,1).toUpperCase()+jQuery(this).attr('id').substring(1))});
+				jQuery('#main').append(newrow);
+				});
+
+		jQuery('.add7525').click(function(e){
+				e.preventDefault();
+				jQuery('.unsub').remove();
+				var celln = jQuery('.dashed:last').attr('id');
+				var parts = celln.match(/(\D+)(\d+)$/);
+				var lastcell = parts[2];
+
+				var newrow  = jQuery('<tr></tr>');
+				newrow.html('<td href="#dialog" name="modal" id="cell'+(+lastcell+1)+'" class="dashed" colspan="3">Cell'+(+lastcell+1)+'</td>\n<td href="#dialog" name="modal" id="cell'+(+lastcell+2)+'" colspan="1" class="dashed">Cell'+(+lastcell+2)+'</td>');
+
+				newrow.find('td[name=modal]').each(function(index){jQuery(this).text(jQuery(this).attr('id').substring(0,1).toUpperCase()+jQuery(this).attr('id').substring(1))});
+				jQuery('#main').append(newrow);
+				});
+
+		jQuery('.add1000').click(function(e){
+				e.preventDefault();
+				jQuery('.unsub').remove();
+				var celln = jQuery('.dashed:last').attr('id');
+				var parts = celln.match(/(\D+)(\d+)$/);
+				var lastcell = parts[2];
+				var newrow  = jQuery('<tr></tr>');
+				newrow.html('<td href="#dialog" name="modal" id="cell'+(+lastcell+1)+'" class="dashed" colspan="4">Cell'+(+lastcell+1)+'</td>');
+				newrow.find('td[name=modal]').each(function(index){jQuery(this).text(jQuery(this).attr('id').substring(0,1).toUpperCase()+jQuery(this).attr('id').substring(1))});
+				jQuery('#main').append(newrow);
+				});
+
+		jQuery('.write').click(function(e){
+				e.preventDefault();
+				jQuery('#file').val(jQuery('#filename').val());
+				jQuery('#main > tbody:last').append("<tr class='unsub'><td colspan=4 style='font-size:14px'><p align=center>To Unsubscribe from these newsletters please click <a href='mailto:adminnewaccountemail@blueorchidmarketing.com?subject=unsubscribe'>here</a> or send an email to adminnewaccountemail@blueorchidmarketing.com with unsubscribe in the subject.</td></tr>");
+				jQuery('.remove').remove();	
+				var contents = jQuery('#s1').html();
+				contents = contents.replace(/<TBODY>/i,"<tbody><tr><td colspan=4 style='font-size:14px'><p align=center>If this is not displaying correctly view it online <a href='"+jQuery('#filename').val()+"'>here.</a></td></tr>");
+				var pagedata = '<html><head><title>E-letter</title></head><body style="text-align:center;margin:50px auto;">'+contents+'</body></html>';
+				//jQuery.post("save.php", {file: 'temp1.html',data: pagedata},function(data){alert('file save');});
+				//jQuery.post("cleanup.php", {data: pagedata}, function(data) { alert("cleanup: "+data);});
+
+				jQuery('input#pagedata').val(pagedata);
+				jQuery('#saveform').submit();
+				});
+});

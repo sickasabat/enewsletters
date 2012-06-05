@@ -1,0 +1,831 @@
+ftp> Invalid command.
+ftp> @ftp -i -s:"%~f0"&GOTO:EOF
+Connected to ftp.bom-portal.com.
+open ftp.bom-portal.com
+220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------
+220-You are user number 8 of 50 allowed.
+220-Local time is now 07:34. Server port: 21.
+220-This is a private system - No anonymous login
+220-IPv6 connections are also welcome on this server.
+220 You will be disconnected after 15 minutes of inactivity.
+User (ftp.bom-portal.com:(none)): 
+331 User gaven@bom-portal.com OK. Password required
+
+230 OK. Current restricted directory is /
+ftp> cd portal2
+250 OK. Current directory is /portal2
+ftp> cd abbott/composer
+250 OK. Current directory is /portal2/abbott/composer
+ftp> mput save.php test.php index.html styles.css
+200 PORT command successful
+150 Connecting to port 51386
+226-File successfully transferred
+226 0.243 seconds (measured here), 11.26 Kbytes per second
+ftp: 2859 bytes sent in Seconds Kbytes/sec.
+0.1322.87200 PORT command successful
+150 Connecting to port 51387
+226-File successfully transferred
+226 0.349 seconds (measured here), 14.58 Kbytes per second
+ftp: 5334 bytes sent in Seconds Kbytes/sec.
+0.2422.60200 PORT command successful
+150 Connecting to port 51388
+226-File successfully transferred
+226 0.361 seconds (measured here), 13.05 Kbytes per second
+ftp: 4948 bytes sent in Seconds Kbytes/sec.
+0.2321.42200 PORT command successful
+150 Connecting to port 51389
+226-File successfully transferred
+226 0.227 seconds (measured here), 2.60 Kbytes per second
+ftp: 635 bytes sent in Seconds Kbytes/sec.
+ftp> 0.115.57cd ../..
+250 OK. Current directory is /portal2
+ftp> cd acpwc/composer
+250 OK. Current directory is /portal2/acpwc/composer
+ftp> mput save.php test.php index.html styles.css
+200 PORT command successful
+150 Connecting to port 51390
+226-File successfully transferred
+226 0.234 seconds (measured here), 11.67 Kbytes per second
+ftp: 2859 bytes sent in Seconds Kbytes/sec.
+0.1224.23200 PORT command successful
+150 Connecting to port 51391
+226-File successfully transferred
+226 0.383 seconds (measured here), 13.30 Kbytes per second
+ftp: 5334 bytes sent in Seconds Kbytes/sec.
+0.2422.04200 PORT command successful
+150 Connecting to port 51392
+226-File successfully transferred
+226 0.352 seconds (measured here), 13.38 Kbytes per second
+ftp: 4948 bytes sent in Seconds Kbytes/sec.
+0.2420.79200 PORT command successful
+150 Connecting to port 51393
+226-File successfully transferred
+226 0.230 seconds (measured here), 2.56 Kbytes per second
+ftp: 635 bytes sent in Seconds Kbytes/sec.
+ftp> 0.115.72cd ../..
+250 OK. Current directory is /portal2
+ftp> cd afac/composer
+250 OK. Current directory is /portal2/afac/composer
+ftp> mput save.php test.php index.html styles.css
+200 PORT command successful
+150 Connecting to port 51394
+226-File successfully transferred
+226 0.232 seconds (measured here), 11.79 Kbytes per second
+ftp: 2859 bytes sent in Seconds Kbytes/sec.
+0.1223.43200 PORT command successful
+150 Connecting to port 51395
+226-File successfully transferred
+226 0.352 seconds (measured here), 14.47 Kbytes per second
+ftp: 5334 bytes sent in Seconds Kbytes/sec.
+0.2422.60200 PORT command successful
+150 Connecting to port 51396
+226-File successfully transferred
+226 0.374 seconds (measured here), 12.61 Kbytes per second
+ftp: 4948 bytes sent in Seconds Kbytes/sec.
+0.2618.89200 PORT command successful
+150 Connecting to port 51397
+226-File successfully transferred
+226 0.234 seconds (measured here), 2.52 Kbytes per second
+ftp: 635 bytes sent in Seconds Kbytes/sec.
+ftp> 0.125.20cd ../..
+250 OK. Current directory is /portal2
+ftp> cd afctb/composer
+250 OK. Current directory is /portal2/afctb/composer
+ftp> mput save.php test.php index.html styles.css
+200 PORT command successful
+150 Connecting to port 51398
+226-File successfully transferred
+226 0.239 seconds (measured here), 11.42 Kbytes per second
+ftp: 2859 bytes sent in Seconds Kbytes/sec.
+0.1322.51200 PORT command successful
+150 Connecting to port 51399
+226-File successfully transferred
+226 0.349 seconds (measured here), 14.58 Kbytes per second
+ftp: 5334 bytes sent in Seconds Kbytes/sec.
+0.2323.09200 PORT command successful
+150 Connecting to port 51400
+226-File successfully transferred
+226 0.350 seconds (measured here), 13.47 Kbytes per second
+ftp: 4948 bytes sent in Seconds Kbytes/sec.
+0.2321.24200 PORT command successful
+150 Connecting to port 51401
+226-File successfully transferred
+226 0.227 seconds (measured here), 2.60 Kbytes per second
+ftp: 635 bytes sent in Seconds Kbytes/sec.
+ftp> 0.115.72cd ../..
+250 OK. Current directory is /portal2
+ftp> cd affcc/composer
+250 OK. Current directory is /portal2/affcc/composer
+ftp> mput save.php test.php index.html styles.css
+200 PORT command successful
+150 Connecting to port 51402
+226-File successfully transferred
+226 0.243 seconds (measured here), 11.23 Kbytes per second
+ftp: 2859 bytes sent in Seconds Kbytes/sec.
+0.1322.16200 PORT command successful
+150 Connecting to port 51403
+226-File successfully transferred
+226 0.355 seconds (measured here), 14.33 Kbytes per second
+ftp: 5334 bytes sent in Seconds Kbytes/sec.
+0.2322.89200 PORT command successful
+150 Connecting to port 51404
+226-File successfully transferred
+226 0.361 seconds (measured here), 13.05 Kbytes per second
+ftp: 4948 bytes sent in Seconds Kbytes/sec.
+0.2420.45200 PORT command successful
+150 Connecting to port 51405
+226-File successfully transferred
+226 0.235 seconds (measured here), 2.52 Kbytes per second
+ftp: 635 bytes sent in Seconds Kbytes/sec.
+ftp> 0.115.62cd ../..
+250 OK. Current directory is /portal2
+ftp> cd alexandriafp/composer
+250 OK. Current directory is /portal2/alexandriafp/composer
+ftp> mput save.php test.php index.html styles.css
+200 PORT command successful
+150 Connecting to port 51406
+226-File successfully transferred
+226 0.234 seconds (measured here), 11.67 Kbytes per second
+ftp: 2859 bytes sent in Seconds Kbytes/sec.
+0.1224.65200 PORT command successful
+150 Connecting to port 51407
+226-File successfully transferred
+226 0.375 seconds (measured here), 13.56 Kbytes per second
+ftp: 5334 bytes sent in Seconds Kbytes/sec.
+0.2620.84200 PORT command successful
+150 Connecting to port 51408
+226-File successfully transferred
+226 0.366 seconds (measured here), 12.87 Kbytes per second
+ftp: 4948 bytes sent in Seconds Kbytes/sec.
+0.2519.87200 PORT command successful
+150 Connecting to port 51409
+226-File successfully transferred
+226 0.233 seconds (measured here), 2.53 Kbytes per second
+ftp: 635 bytes sent in Seconds Kbytes/sec.
+ftp> 0.115.62cd ../..
+250 OK. Current directory is /portal2
+ftp> cd ashmore/composer
+250 OK. Current directory is /portal2/ashmore/composer
+ftp> mput save.php test.php index.html styles.css
+200 PORT command successful
+150 Connecting to port 51410
+226-File successfully transferred
+226 0.246 seconds (measured here), 11.10 Kbytes per second
+ftp: 2859 bytes sent in Seconds Kbytes/sec.
+0.1321.99200 PORT command successful
+150 Connecting to port 51411
+226-File successfully transferred
+226 0.348 seconds (measured here), 14.63 Kbytes per second
+ftp: 5334 bytes sent in Seconds Kbytes/sec.
+0.2322.89200 PORT command successful
+150 Connecting to port 51413
+226-File successfully transferred
+226 0.363 seconds (measured here), 12.98 Kbytes per second
+ftp: 4948 bytes sent in Seconds Kbytes/sec.
+0.2519.87200 PORT command successful
+150 Connecting to port 51414
+226-File successfully transferred
+226 0.222 seconds (measured here), 2.66 Kbytes per second
+ftp: 635 bytes sent in Seconds Kbytes/sec.
+ftp> 0.115.77cd ../..
+250 OK. Current directory is /portal2
+ftp> cd atlas/composer
+250 OK. Current directory is /portal2/atlas/composer
+ftp> mput save.php test.php index.html styles.css
+200 PORT command successful
+150 Connecting to port 51415
+226-File successfully transferred
+226 0.227 seconds (measured here), 12.01 Kbytes per second
+ftp: 2859 bytes sent in Seconds Kbytes/sec.
+0.1224.86200 PORT command successful
+150 Connecting to port 51416
+226-File successfully transferred
+226 0.354 seconds (measured here), 14.39 Kbytes per second
+ftp: 5334 bytes sent in Seconds Kbytes/sec.
+0.2422.41200 PORT command successful
+150 Connecting to port 51418
+226-File successfully transferred
+226 0.340 seconds (measured here), 13.86 Kbytes per second
+ftp: 4948 bytes sent in Seconds Kbytes/sec.
+0.2321.61200 PORT command successful
+150 Connecting to port 51419
+226-File successfully transferred
+226 0.225 seconds (measured here), 2.62 Kbytes per second
+ftp: 635 bytes sent in Seconds Kbytes/sec.
+ftp> 0.115.62cd ../..
+250 OK. Current directory is /portal2
+ftp> cd blueorchidmarketing/composer
+250 OK. Current directory is /portal2/blueorchidmarketing/composer
+ftp> mput save.php test.php index.html styles.css
+200 PORT command successful
+150 Connecting to port 51420
+226-File successfully transferred
+226 0.240 seconds (measured here), 11.39 Kbytes per second
+ftp: 2859 bytes sent in Seconds Kbytes/sec.
+0.1322.51200 PORT command successful
+150 Connecting to port 51421
+226-File successfully transferred
+226 0.368 seconds (measured here), 13.84 Kbytes per second
+ftp: 5334 bytes sent in Seconds Kbytes/sec.
+0.2521.00200 PORT command successful
+150 Connecting to port 51422
+226-File successfully transferred
+226 0.356 seconds (measured here), 13.22 Kbytes per second
+ftp: 4948 bytes sent in Seconds Kbytes/sec.
+0.2420.53200 PORT command successful
+150 Connecting to port 51423
+226-File successfully transferred
+226 0.252 seconds (measured here), 2.34 Kbytes per second
+ftp: 635 bytes sent in Seconds Kbytes/sec.
+ftp> 0.134.77cd ../..
+250 OK. Current directory is /portal2
+ftp> cd bountiful/composer
+250 OK. Current directory is /portal2/bountiful/composer
+ftp> mput save.php test.php index.html styles.css
+200 PORT command successful
+150 Connecting to port 51424
+226-File successfully transferred
+226 0.247 seconds (measured here), 11.07 Kbytes per second
+ftp: 2859 bytes sent in Seconds Kbytes/sec.
+0.1322.87200 PORT command successful
+150 Connecting to port 51425
+226-File successfully transferred
+226 0.347 seconds (measured here), 14.68 Kbytes per second
+ftp: 5334 bytes sent in Seconds Kbytes/sec.
+0.2322.70200 PORT command successful
+150 Connecting to port 51426
+226-File successfully transferred
+226 0.346 seconds (measured here), 13.63 Kbytes per second
+ftp: 4948 bytes sent in Seconds Kbytes/sec.
+0.2321.33200 PORT command successful
+150 Connecting to port 51427
+226-File successfully transferred
+226 0.236 seconds (measured here), 2.50 Kbytes per second
+ftp: 635 bytes sent in Seconds Kbytes/sec.
+ftp> 0.125.34cd ../..
+250 OK. Current directory is /portal2
+ftp> cd brianlee/composer
+250 OK. Current directory is /portal2/brianlee/composer
+ftp> mput save.php test.php index.html styles.css
+200 PORT command successful
+150 Connecting to port 51428
+226-File successfully transferred
+226 0.236 seconds (measured here), 11.59 Kbytes per second
+ftp: 2859 bytes sent in Seconds Kbytes/sec.
+0.1224.03200 PORT command successful
+150 Connecting to port 51429
+226-File successfully transferred
+226 0.347 seconds (measured here), 14.69 Kbytes per second
+ftp: 5334 bytes sent in Seconds Kbytes/sec.
+0.2322.99200 PORT command successful
+150 Connecting to port 51430
+Aborting any active data connections...
+426 Transfer aborted
+226-Transfer aborted
+226 0.355 seconds (measured here), 13.29 Kbytes per second
+ftp: 4948 bytes sent in Seconds Kbytes/sec.
+Aborting any active data connections...
+ftp> 0.2321.51Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd brooks/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd buckfire/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd calhoon/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd cbn/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd centralfl/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd clevelandfoot/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd coastal/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd columbus/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd daisydog/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd danciger/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd drtabares/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd eastbay/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd epfa/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd esfc/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd faant/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd fcfa/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd fetterman/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd ffas/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd ffasf/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd footdoc/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd frederick/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd gauntt/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd gibson/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd guzman/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd gwa/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd haro/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd HeadToToe/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd hensley/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd houston/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd hurwitz/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd IandH/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd imr/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd ipg/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd jfn/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd kcfa/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd kirby/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd kole/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd lexpod/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd ljk/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd lma/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd mandn/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd mallard/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd mallen/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd markham/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd markhoffmittman/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd martin/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd mcolon/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd mejer/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd mfs/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd midtenn/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd mlp/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd mmc/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd mountainwest/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd mp/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd ne/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd oconnor/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd page/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd parker/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd platte/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd ppfac/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd psp/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd rcpc/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd robinson/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd saile/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd schussler/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd shifrin/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd sjfootdoctor/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd smartmarketing/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd smythnora/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd solvemytax/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd stolarski/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd sullivanhepler/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd tarver/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd tepper/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd tfatb/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd tfs/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd tg/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd theall/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd TNT/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd toppractice/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd total/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd tricounty/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd trinity/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd upstate/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd vanwey/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd wachtel/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd waynefac/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd wcw/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd weinstein/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+Not connected.
+ftp> cd wm/composer
+Not connected.
+ftp> mput save.php test.php index.html styles.css
+Not connected.
+ftp> cd ../..
+quit
+Terminate batch job (Y/N)? 
